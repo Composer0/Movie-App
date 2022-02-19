@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght#200;400&display=swap');
 :root {
-    --primary-color: #22254b;
-    --secondary-color: #373b69;
+    --primary-color: #04042c;
+    --secondary-color: #0a2b3d;
 }
 
 * {
@@ -32,7 +32,7 @@ header {
 }
 
 .search::placeholder {
-    color: #7378c5;
+    color: #9093b3;
 }
 
 .search:focus {
@@ -105,4 +105,22 @@ main {
 
 .movie:hover .overview {
     transform: translateY(0);
+}
+
+@media (max-width: 800px) {
+    main {
+        left: 15%;
+        margin-right: 6%;
+    }
+    .movie {
+        width: 201px;
+        margin: 0.5rem;
+        background-color: var(--secondary-color);
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+        cursor: pointer;
+        align-items: center;
+    }
 }
