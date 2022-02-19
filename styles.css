@@ -41,8 +41,11 @@ header {
 }
 
 main {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .movie {
@@ -108,19 +111,17 @@ main {
 }
 
 @media (max-width: 800px) {
-    main {
-        left: 15%;
-        margin-right: 6%;
+    .search {
+        padding: 0.5 3rem;
+    }
+    header {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        background-color: var(--secondary-color);
     }
     .movie {
-        width: 201px;
+        width: 200px;
         margin: 0.5rem;
-        background-color: var(--secondary-color);
-        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-        position: relative;
-        overflow: hidden;
-        border-radius: 3px;
-        cursor: pointer;
-        align-items: center;
     }
 }
