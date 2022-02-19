@@ -121,7 +121,7 @@ main {
         background-color: var(--secondary-color);
     }
     .movie {
-        width: 140px;
+        width: 135px;
         margin: 0.5rem;
     }
 }
