@@ -124,11 +124,19 @@ h1 {
 
 @media (max-width: 800px) {
     .search {
-        padding: 0.5 3rem;
+        padding: .5rem;
+        width: 100%;
+    }
+    h1 {
+        left: 0;
+        position: relative;
+        text-align: center;
     }
     header {
         padding: 1rem;
         display: flex;
+        flex-direction: column;
+        align-content: center;
         justify-content: center;
         background-color: var(--secondary-color);
     }
