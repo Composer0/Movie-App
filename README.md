@@ -1,6 +1,6 @@
 # Movie-App
 
-https://www.orionpalmer.com/Movie%20App/index.html
+https://composer0.github.io/Movie-App/
 
 HTML | CSS | JavaScript | API
 
